@@ -79,6 +79,42 @@
   @apply mt-8 mb-4;
 }
 
+.markdown-body h1 {
+  @apply text-3xl;
+}
+
+.markdown-body h2 {
+  @apply text-2xl;
+}
+
+.markdown-body h3 {
+  @apply text-xl;
+}
+
+.markdown-body h4 {
+  @apply text-lg;
+}
+
+.markdown-body h5 {
+  @apply text-base;
+}
+
+.markdown-body h6 {
+  @apply text-sm;
+}
+
 .markdown-body pre {
   @apply flex bg-slate-900 rounded-md p-2 w-fit mt-2;
+}
+
+.markdown-body p > code {
+  @apply bg-slate-900 rounded-md p-1;
+}
+
+.markdown-body li {
+  @apply space-y-3;
+}
+
+.markdown-body li p {
+  @apply mt-2;
 }
