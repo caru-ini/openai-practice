@@ -51,14 +51,15 @@ export default function Home() {
 
   return (
     <div className='flex min-h-screen flex-col items-center py-2'>
+      <div className='flex w-full items-center justify-start gap-3 p-5'>
+        <h2 className='text-xl'>Hello</h2>
+        <ToggleTheme />
+      </div>
       {!messages.length && (
         <div id='welcome' className='fixed top-[45svh] z-10 grid gap-y-3'>
           <div id='motd' className='rounded-md bg-secondary p-3'>
             <h1 className='text-3xl'>OpenAI-Practice</h1>
             <p className='mt-1 text-lg text-muted-foreground'>Type something to get started.</p>
-            <div>
-              <ToggleTheme />
-            </div>
           </div>
           <p className='text-xl text-muted-foreground'>Ideas</p>
           <div className='grid grid-cols-2 gap-2'>

@@ -104,11 +104,11 @@
 }
 
 .markdown-body pre {
-  @apply flex bg-slate-900 rounded-md p-2 w-fit mt-2;
+  @apply flex bg-slate-900 rounded-md p-2 w-fit mt-2 text-wrap;
 }
 
-.markdown-body p > code {
-  @apply bg-slate-900 rounded-md p-1;
+.markdown-body code {
+  @apply bg-slate-900 rounded-md p-1 text-white;
 }
 
 .markdown-body li {
